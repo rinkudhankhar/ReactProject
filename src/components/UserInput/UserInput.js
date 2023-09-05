@@ -2,10 +2,10 @@ import { useState } from 'react';
 import classes from './UserInput.module.css';
 
 const initialUserInput = {
-  'current-savings': 10000,
-  'yearly-contribution': 1200,
+  'current-savings': 100,
+  'yearly-contribution': 120,
   'expected-return': 7,
-  duration: 10,
+  duration: 5,
 };
 
 const UserInput = (props) => {
